@@ -1,0 +1,157 @@
+
+/* large screen */
+@media (max-width: 1200px) {
+    body{
+        -webkit-backdrop-filter: blur(1.2px);
+    }
+
+    .container{
+        width: 60%;
+
+    }
+
+    .hero{
+        width: 100%;
+        filter: none
+    }
+
+    .hero h1{
+        font-size: 8rem;
+        filter: none
+    }
+    
+    .hero p{
+        font-size: 2rem;
+        filter: none
+    }
+
+    .countdown{
+        border-radius: 30px;
+    }
+
+    .time{
+        filter: none;
+    }
+
+    .time h3{
+        top: 100%;
+        font-size: 3.2rem;
+    }
+
+    .time p{
+        font-size: 1.2rem;
+    }
+}
+
+/* small screen */
+@media (max-width: 1024px) {
+    body{
+        -webkit-backdrop-filter: none
+    }
+
+    .container{
+        width: 75%;
+
+    }
+
+    .hero h1{
+        font-size: 7rem;
+        filter: none;
+        margin: 5% 0;
+    }
+    
+    .hero p{
+        font-size: 2.5rem;
+        filter: none;
+    }
+
+    .countdown{
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .time h3{
+        top: 100%;
+        font-size: 3.8rem;
+    }
+
+    .time p{
+        font-size: 1.5rem;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    body{
+        -webkit-backdrop-filter: none;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .hero h1{
+        font-size: 7rem;
+        filter: none;
+        margin: 3% 0;
+    }
+    
+    .hero p{
+        font-size: 2.5rem;
+        filter: none;
+    }
+
+    .countdown{
+        width: 100%;
+        border-radius: 27px;
+
+    }
+
+    .time h3{
+        top: 100%;
+        font-size: 3.8rem;
+    }
+
+    .time p{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* smartphone */
+@media (max-width: 480px){
+    body{
+        -webkit-backdrop-filter: none;
+    }
+
+    .container{
+        width: 92%;
+    }
+
+    .hero h1{
+        font-size: 6rem;
+        filter: none
+    }
+    
+    .hero p{
+        font-size: 2rem;
+        padding-bottom: 5%;
+
+    }
+
+    .countdown{
+        width: 100%;
+        padding-bottom: 13%;
+        border-radius: 23px;
+    }
+
+    .time h3{
+        top: 100%;
+        font-size: 2.3rem;
+    }
+
+    .time p{
+        top: 700%;
+        font-size: 0.9rem;
+    }
+}
