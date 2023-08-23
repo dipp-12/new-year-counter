@@ -15,6 +15,7 @@ const countdown = () => {
     const getMinute = Math.floor((gap % hour) / minute)
     const getSecond = Math.floor((gap % minute) / second)
 
+    document.querySelector('.year-title').innerText = nextYear
     document.querySelector('.year-text').innerText = nextYear
     document.querySelector('.day-text').innerText = getDay
     document.querySelector('.hour-text').innerText = getHour
